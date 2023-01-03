@@ -1,0 +1,106 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background: url('https://wallpaperaccess.com/full/4434748.jpg');
+    min-height: 100vh;
+    width: 100vw;   
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.board {
+    border: 2px solid black;
+    box-shadow: 0 10px 8px rgba(0,0,0,.6);
+    background: linear-gradient(to left, rgb(63, 212, 63), rgb(98, 243, 197));
+    width: 85vmin;
+    height: 90vmin;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+}
+    
+.head {
+    border: 2px solid black;
+    background-color: peru;
+}
+
+.snake{
+    border: 2px solid black;
+    background-color: black;
+}
+
+.food{
+    border: 2px solid black;
+    background-color: yellow;
+    border-radius: 20%;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background: url('https://wallpaperaccess.com/full/4434748.jpg');
+    min-height: 100vh;
+    width: 100vw;   
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#scoreBox {
+    position: absolute;
+    top: 220px;
+    left: 100px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#HiScoreBox {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.board {
+    border: 2px solid black;
+    box-shadow: 0 10px 8px rgba(0,0,0,.6);
+    background: linear-gradient(to left, rgb(63, 212, 63), rgb(98, 243, 197));
+    width: 90vmin;
+    height: 90vmin;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+}
+    
+.head {
+    border-radius: 6px;
+    border: 2px solid black;
+    background-color: rgb(1, 47, 128);
+}
+
+.snake{
+    border-radius: 4px;
+    margin: 2px;
+    border: 2px solid black;
+    background-color: rgb(164, 78, 150);
+}
+
+.food{
+    border: 2px solid black;
+    background: linear-gradient(rgb(237, 78, 78), rgb(243, 243, 58));
+    border-radius: 50%;
+}
